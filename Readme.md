@@ -1,0 +1,1 @@
+This is a skincare hero section first created in Figma u can find the Figma file in the img folder
