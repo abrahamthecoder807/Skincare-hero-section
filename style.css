@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Artifika&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    flex-wrap: wrap;
+}
+body {
+    background-color: #F2F3EE;
+    padding: 0;
+
+}
+.header {
+    background-image: url(img/skincare.png);
+    height: 800px;
+    padding-top: px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.discount {
+    background-color: rgb(12, 73, 12);
+    margin-bottom: 32px;
+    color: #f1f1f1;
+    gap: 8px;
+    flex-wrap: nowrap;
+}
+.discount-list{
+    list-style: none;
+    display: inline-block;
+    flex-wrap: nowrap;
+    color: white;
+    padding: 10px 8px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px; 
+}
+
+.navbar {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 8px;
+    margin-left: 60px;
+    margin-right: 60px;
+    flex-wrap: nowrap;
+}
+.logo {
+    font-weight: 900;
+    align-items: center;
+    font-size: 24px;
+
+}
+.textbody {
+    display: flex;
+    flex-direction: column;
+    margin-top: 318px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+.butt {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    opacity: 0.5;
+    text-decoration: underline;
+    padding: 0;
+    
+    
+}
+.button-scroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+/* .scroll-down {
+    display: flex;
+    margin-top: 220px;
+    color:#c3baba;
+    font-weight: bold;
+} */
+.scroll-down {
+    font-size: 16px;
+    color: #c3baba;
+    font-weight: bold;
+    padding: 0;
+    align-items: center;
+    display: flex;
+  }
+ .material-icons {
+    margin-left: 8px;
+    /* animation: bounce 1.5s infinite; */
+  }
+  .arrow_downward {
+    background-color: rgba(228, 223, 223, 0.2);
+    border-radius: 50%;
+
+  }
+   .person, .search, .shopping_cart{
+    color: black;
+  } 
+  
+.header h1 {
+    font-weight: 900px;
+    font-size: 72px;
+    line-height: 64px;
+    font-family: 'Artifika';
+    text-align: left;
+    margin-bottom: 0;
+    color: #fafafa;
+}
+span {
+    font-weight: lighter;
+    font-family: 'Mooli';
+    font-size: 56px;
+    color: #fafafa;
+    font-style: italic;
+}
+.headertext {
+    display: flex;
+    flex-direction: column;
+}
+.headertext p {
+    font-size: 18px;
+    color: #c3baba;
+    font-family: 'inter';
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 0;
+    margin: 0;
+}
+.section {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonies {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 48px;
+    flex-wrap: wrap;
+}
+.testimony {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 16px 8px;
+    align-items: center;
+    border-radius: 24px;
+    height: 150px;
+    min-width: 200px;
+    text-align: center;
+    justify-content: center;
+    text-wrap: wrap;
+}
+.testimony h2 {
+    font-size: medium;
+    font-size: 20;
+    font-family: 'Montserrat';
+    margin-bottom: 16px;
+}
+.ideas {
+    font-size: 48px;
+    font-style: italic;
+    text-align: center;
+}
